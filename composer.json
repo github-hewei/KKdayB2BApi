@@ -1,0 +1,22 @@
+{
+    "name": "kkday-b2b-api/kkday-b2b-api",
+    "description": "PHP SDK BY KKday B2B Api",
+    "type": "library",
+    "require": {
+        "hwphp/hwphp": "^1.2",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "KKdayB2BApi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "hewei"
+        }
+    ],
+    "minimum-stability": "beta"
+}
