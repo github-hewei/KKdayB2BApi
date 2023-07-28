@@ -108,8 +108,8 @@ class KKdayB2BApi
 
             $curl->setNoSSL();
             $curl->addHeader('Content-type: application/json');
-            $curl->setOption(CURLOPT_CONNECTTIMEOUT, 3);
-            $curl->setOption(CURLOPT_TIMEOUT, 3);
+            $curl->setOption(CURLOPT_CONNECTTIMEOUT, 30);
+            $curl->setOption(CURLOPT_TIMEOUT, 30);
 
             $content = $curl->exec();
 
